@@ -1,0 +1,45 @@
+{
+  "service": {
+    "id": "VIRTUAL_ACCOUNT"
+  },
+  "acquirer": {
+    "id": "BANK_CIMB"
+  },
+  "channel": {
+    "id": "VIRTUAL_ACCOUNT_BANK_CIMB"
+  },
+  "order": {
+    "invoice_number": "INV-1679625968",
+    "amount": 10000
+  },
+  "virtual_account_info": {
+    "virtual_account_number": "1899000000002398"
+  },
+  "virtual_account_payment": {
+    "identifier": [
+      {
+        "name": "TRANSAKSI_ID",
+        "value": "2f287318-f95f-45f9-9804-ad85a1b0511f"
+      },
+      {
+        "name": "TERMINAL_ID",
+        "value": "123.456.890.111"
+      }
+    ]
+  },
+  "transaction": {
+    "status": "SUCCESS",
+    "date": "2023-03-24T03:25:12Z",
+    "original_request_id": "a9830e7d-1d5a-472e-9dea-23bb36b0b6b8"
+  },
+  "additional_info": {
+    "info1": "Zhahir",
+    "info2": "Testing",
+    "info3": "customer1",
+    "info4": "customer2",
+    "info5": "customer3"
+  }
+}
+Signature Generated: HMACSHA256=8+uYACSeHqZw2Zi2l+xq193FuILJwg03Cx0vCFld8Fk=
+Signature DOKU: HMACSHA256=8+uYACSeHqZw2Zi2l+xq193FuILJwg03Cx0vCFld8Fk=
+Berhasil
